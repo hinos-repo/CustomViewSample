@@ -5,4 +5,4 @@
 
 ### 테스트 샘플이기 때문에 버그가 다수 존재할 수 있음
 
-<img width="80%" src="https://youtube/DIEYQPqM59k/0.jpg"/>
+[![예제](http://img.youtube.com/vi/RlQEoJaLQRA/0.jpg)](https://youtu.be/RlQEoJaLQRA?t=0s) 
