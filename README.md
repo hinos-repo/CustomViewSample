@@ -5,4 +5,5 @@
 
 ### 테스트 샘플이기 때문에 버그가 다수 존재할 수 있음
 
-<img width="60%" src="https://user-images.githubusercontent.com/60995477/113531450-c5a62380-9603-11eb-8923-b726fe9a8596.gif" />
+
+<iframe width="640" height="360" src="https://youtu.be/DIEYQPqM59k" frameborder="0" gesture="media" allowfullscreen=""></iframe>
