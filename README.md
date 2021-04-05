@@ -5,5 +5,4 @@
 
 ### 테스트 샘플이기 때문에 버그가 다수 존재할 수 있음
 
-
-<iframe width="640" height="360" src="https://youtu.be/DIEYQPqM59k" frameborder="0" gesture="media" allowfullscreen=""/>
+<img width="80%" src="https://youtu.be/DIEYQPqM59k/0.jpg"/>
