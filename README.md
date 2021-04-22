@@ -13,4 +13,4 @@
 - 도형 이동
 - 도형 리사이즈
 
-[![예제](http://img.youtube.com/vi/DIEYQPqM59k/0.jpg)](https://youtu.be/DIEYQPqM59k?t=0s) 
+[![예제](http://img.youtube.com/vi/DIEYQPqM59k/2.jpg)](https://youtu.be/DIEYQPqM59k?t=0s) 
