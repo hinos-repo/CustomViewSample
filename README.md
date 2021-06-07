@@ -7,10 +7,11 @@
 - Circle
 - Rectangle
 
-## 시연 영상
+## 기능
 - 도형 생성
 - 도형 삭제
 - 도형 이동
 - 도형 리사이즈
 
+## 시연 영상
 [![예제](http://img.youtube.com/vi/DIEYQPqM59k/0.jpg)](https://youtu.be/DIEYQPqM59k?t=0s) 
