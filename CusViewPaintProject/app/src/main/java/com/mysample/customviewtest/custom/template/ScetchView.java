@@ -1,4 +1,4 @@
-package com.mysample.customviewtest.custom;
+package com.mysample.customviewtest.custom.template;
 
 /**
  * make : 2019-11-05 - Hinos
@@ -10,16 +10,13 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
-import android.view.View;
-
-import com.mysample.customviewtest.MainActivity;
 
 public class ScetchView
 {
     public final static int SHAPE_NONE      = -1;
     public final static int SHAPE_LINE      = 1;
-    public final static int SHAPE_RECT      = 1;
-    public final static int SHAPE_CIRCLE    = 1;
+    public final static int SHAPE_RECT      = 2;
+    public final static int SHAPE_OVAL      = 3;
 
 
     public final static int DRAW_MODE       = 5;
@@ -62,11 +59,11 @@ public class ScetchView
         this.context = context;
     }
 
-    protected void onDraw(Canvas canvas) {
+    public void onDraw(Canvas canvas) {
 
     }
 
-    protected void Init(Context context)
+    protected void initView(Context context)
     {
 
     }
@@ -76,42 +73,42 @@ public class ScetchView
 
     }
 
-    public void InitStartPixel(int nStartX, int nStartY)
+    public void initStartPixel(int nStartX, int nStartY)
     {
 
     }
 
-    public void InitLastPixel(int nLastX, int nLastY)
+    public void initLastPixel(int nLastX, int nLastY)
     {
 
     }
 
-    public void CmdOnDraw(int nX, int nY)
+    public void cmdOnDraw(int nX, int nY)
     {
 
     }
 
-    public void CmdOnResize(int nType, int nX, int nY)
+    public void cmdOnResize(int nType, int nX, int nY)
     {
 
     }
 
-    public void ShapeMove(int nX, int nY)
+    public void shapeMove(int nX, int nY)
     {
 
     }
 
-    public void ShapeDraw()
+    public void shapeDraw()
     {
 
     }
 
-    public boolean OnTouchModify(int nType, int nX, int nY)
+    public boolean onTouchModify(int nType, int nX, int nY)
     {
         return false;
     }
 
-    public int HitCheck(int nX, int nY)
+    public int hitCheck(int nX, int nY)
     {
         return -1;
     }

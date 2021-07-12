@@ -4,24 +4,21 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.mysample.customviewtest.custom.DrawView;
-import com.mysample.customviewtest.custom.ScetchView;
-
-import java.util.ArrayList;
+import com.mysample.customviewtest.custom.CanvasView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener
 {
-    DrawView drawView;
+    CanvasView canvasView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        InitViewSetting();
+        initViewSetting();
     }
 
-    void InitViewSetting()
+    void initViewSetting()
     {
         View v;
         v = findViewById(R.id.btnLine);
@@ -37,7 +34,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         v = findViewById(R.id.btnBoard);
         v.setOnClickListener(this);
 
-        drawView = findViewById(R.id.drawView);
+        canvasView = findViewById(R.id.canvasView);
     }
 
 
@@ -47,15 +44,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId())
         {
             case R.id.btnLine:
-                drawView.selectShape(DrawView.SELECT_LINE);
+                canvasView.selectShape(CanvasView.VIEW_MODE_LINE);
                 break;
 
             case R.id.btnRect:
-                drawView.selectShape(DrawView.SELECT_RECT);
+                canvasView.selectShape(CanvasView.VIEW_MODE_RECT);
                 break;
 
             case R.id.btnCircle:
-                drawView.selectShape(DrawView.SELECT_CIRCLE);
+                canvasView.selectShape(CanvasView.VIEW_MODE_CIRCLE);
                 break;
 
             case R.id.btnBoard:
@@ -79,7 +76,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private void onBtnModify()
     {
-        drawView.doModifyMode();
+        canvasView.changeModifyMode();
     }
 
     private void onBtnBoard()
@@ -92,6 +89,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private void onBtnViewClear()
     {
-        drawView.doClearView();
+        canvasView.clearScetchView();
     }
 }

@@ -62,8 +62,8 @@
             />
     </LinearLayout>
 
-    <com.mysample.customviewtest.custom.DrawView
-        android:id="@+id/drawView"
+    <com.mysample.customviewtest.custom.CanvasView
+        android:id="@+id/canvasView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         />
